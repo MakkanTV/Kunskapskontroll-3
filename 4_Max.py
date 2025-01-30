@@ -22,7 +22,7 @@ df = pd.read_sql_query(query, con)
 
 st.title("Max's Analytics")
 
-st.header("Kan man se en ökning på hur många som arbetar hemma mellan 2020-2023? ")
+st.header("Can you see a growth in remote work from home between 2020-2023")
 
 
 chart = alt.Chart(df).mark_line().encode(
